@@ -2,7 +2,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
 extern "C" {
     __declspec(dllexport) void fillArray(int arr[], int size) {
 		srand(time(0));
